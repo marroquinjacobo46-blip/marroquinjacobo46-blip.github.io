@@ -1,45 +1,39 @@
-
-/* CONFIGURACION GENERAL */
+/* ESTILOS GENERALES */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #10141c;
     color: white;
+    scroll-behavior: smooth;
 }
 
 
 /* CABECERA */
 
 .cabecera {
-    width: 100%;
-    min-height: 85px;
     background-color: #080c14;
+    padding: 20px 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 7%;
     position: sticky;
     top: 0;
-    z-index: 100;
 }
 
 .logo span {
     color: #d6b46a;
     font-size: 25px;
     font-weight: bold;
-    letter-spacing: 4px;
 }
 
 .logo p {
     font-size: 10px;
-    letter-spacing: 2px;
     margin-top: 5px;
 }
 
@@ -50,10 +44,8 @@ nav ul {
 }
 
 nav a {
-    text-decoration: none;
     color: white;
-    font-size: 14px;
-    transition: 0.3s;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -65,11 +57,8 @@ nav a:hover {
 
 .portada {
     min-height: 650px;
-    background-image:
-    linear-gradient(rgba(0,0,0,0.55),
-    rgba(0,0,0,0.75)),
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
     url("https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1800&q=90");
-
     background-size: cover;
     background-position: center;
     display: flex;
@@ -81,57 +70,47 @@ nav a:hover {
     max-width: 750px;
 }
 
-.subtitulo,
-.etiqueta {
+.subtitulo, .etiqueta {
     color: #d6b46a;
-    letter-spacing: 4px;
     font-size: 13px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .portada h1 {
-    font-size: 60px;
-    line-height: 1.1;
+    font-size: 55px;
     margin-bottom: 20px;
 }
 
 .portada h2 {
     color: #d6b46a;
-    font-size: 25px;
     margin-bottom: 20px;
 }
 
 .portada p {
-    font-size: 17px;
     line-height: 1.8;
-    max-width: 600px;
 }
 
 .boton {
     display: inline-block;
     background-color: #d6b46a;
     color: #10141c;
-    padding: 16px 30px;
-    margin-top: 30px;
+    padding: 15px 25px;
+    margin-top: 25px;
     text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
 }
 
 .boton:hover {
     background-color: white;
-    transform: translateY(-3px);
 }
 
 
 /* PRESENTACION */
 
 .presentacion {
-    padding: 100px 8%;
+    padding: 80px 8%;
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 .texto-presentacion {
@@ -139,8 +118,8 @@ nav a:hover {
 }
 
 .texto-presentacion h2 {
-    font-size: 38px;
-    margin-bottom: 25px;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
 .texto-presentacion p {
@@ -155,66 +134,56 @@ nav a:hover {
 
 .imagen-presentacion img {
     width: 100%;
-    height: 380px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 8px;
 }
 
 
 /* TRAMITES */
 
 .tramites {
-    padding: 90px 7%;
+    padding: 80px 7%;
     background-color: #171e29;
     text-align: center;
 }
 
 .tramites h2 {
-    font-size: 38px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 .descripcion {
     color: #bdbdbd;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .contenedor-tarjetas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 25px;
     text-align: left;
 }
 
 .tarjeta {
     background-color: #222c3a;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.tarjeta:hover {
-    transform: translateY(-8px);
 }
 
 .tarjeta img {
     width: 100%;
-    height: 250px;
+    height: 230px;
     object-fit: cover;
 }
 
 .contenido-tarjeta {
-    padding: 30px;
+    padding: 25px;
 }
 
 .tarjeta h3 {
     color: #d6b46a;
-    font-size: 23px;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
-.tarjeta p,
-.tarjeta li {
+.tarjeta p, .tarjeta li {
     color: #d0d0d0;
     line-height: 1.7;
 }
@@ -229,24 +198,19 @@ nav a:hover {
 
 .tarjeta a {
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 20px;
     color: #d6b46a;
     text-decoration: none;
-    font-weight: bold;
-}
-
-.tarjeta a:hover {
-    color: white;
 }
 
 
 /* ESTUDIANTES */
 
 .estudiantes {
-    padding: 100px 8%;
+    padding: 80px 8%;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .estudiantes-texto {
@@ -254,7 +218,7 @@ nav a:hover {
 }
 
 .estudiantes h2 {
-    font-size: 38px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
@@ -265,9 +229,8 @@ nav a:hover {
 
 .estudiantes img {
     width: 50%;
-    height: 350px;
+    height: 330px;
     object-fit: cover;
-    border-radius: 8px;
 }
 
 
@@ -275,35 +238,33 @@ nav a:hover {
 
 .consejos {
     background-color: #171e29;
-    padding: 90px 8%;
+    padding: 80px 8%;
     text-align: center;
 }
 
 .consejos h2 {
-    font-size: 35px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .lista-consejos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 20px;
 }
 
 .lista-consejos div {
     background-color: #222c3a;
-    padding: 30px 20px;
-    border-radius: 8px;
+    padding: 25px;
 }
 
 .lista-consejos h3 {
     color: #d6b46a;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
 .lista-consejos p {
-    color: #cccccc;
+    color: #ccc;
     line-height: 1.6;
 }
 
@@ -311,18 +272,17 @@ nav a:hover {
 /* RECURSOS */
 
 .recursos {
-    padding: 80px 8%;
+    padding: 70px 8%;
     text-align: center;
 }
 
 .recursos h2 {
-    font-size: 35px;
     margin-bottom: 20px;
 }
 
 .recursos p {
-    color: #cccccc;
-    margin-bottom: 25px;
+    color: #ccc;
+    margin-bottom: 20px;
 }
 
 .recursos ul {
@@ -338,16 +298,12 @@ nav a:hover {
     text-decoration: none;
 }
 
-.recursos a:hover {
-    color: white;
-}
-
 
 /* PIE DE PAGINA */
 
 footer {
     background-color: #080c14;
-    padding: 60px 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
@@ -358,18 +314,18 @@ footer h2 {
 
 footer p {
     color: #bdbdbd;
-    line-height: 1.8;
     margin-bottom: 12px;
+    line-height: 1.7;
 }
 
 .copyright {
     border-top: 1px solid #333;
     padding-top: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 
-/* ADAPTACION A MOVILES */
+/* MOVILES */
 
 @media (max-width: 850px) {
 
@@ -381,7 +337,6 @@ footer p {
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
     }
 
     .portada h1 {
@@ -393,8 +348,8 @@ footer p {
         flex-direction: column;
     }
 
-    .imagen-presentacion img,
-    .estudiantes img {
+    .estudiantes img,
+    .imagen-presentacion img {
         width: 100%;
     }
 
