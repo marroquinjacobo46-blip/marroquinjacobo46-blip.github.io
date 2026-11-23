@@ -1,6 +1,4 @@
-/* ESTILOS GENERALES */
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,8 +11,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-/* CABECERA */
 
 .cabecera {
     background-color: #080c14;
@@ -51,9 +47,6 @@ nav a {
 nav a:hover {
     color: #d6b46a;
 }
-
-
-/* PORTADA */
 
 .portada {
     min-height: 650px;
@@ -103,9 +96,6 @@ nav a:hover {
     background-color: white;
 }
 
-
-/* PRESENTACION */
-
 .presentacion {
     padding: 80px 8%;
     display: flex;
@@ -137,10 +127,6 @@ nav a:hover {
     height: 350px;
     object-fit: cover;
 }
-
-
-/* TRAMITES */
-
 .tramites {
     padding: 80px 7%;
     background-color: #171e29;
@@ -202,10 +188,6 @@ nav a:hover {
     color: #d6b46a;
     text-decoration: none;
 }
-
-
-/* ESTUDIANTES */
-
 .estudiantes {
     padding: 80px 8%;
     display: flex;
@@ -232,10 +214,6 @@ nav a:hover {
     height: 330px;
     object-fit: cover;
 }
-
-
-/* CONSEJOS */
-
 .consejos {
     background-color: #171e29;
     padding: 80px 8%;
@@ -267,10 +245,6 @@ nav a:hover {
     color: #ccc;
     line-height: 1.6;
 }
-
-
-/* RECURSOS */
-
 .recursos {
     padding: 70px 8%;
     text-align: center;
@@ -297,10 +271,6 @@ nav a:hover {
     color: #d6b46a;
     text-decoration: none;
 }
-
-
-/* PIE DE PAGINA */
-
 footer {
     background-color: #080c14;
     padding: 50px 20px;
@@ -323,9 +293,6 @@ footer p {
     padding-top: 20px;
     margin-top: 25px;
 }
-
-
-/* MOVILES */
 
 @media (max-width: 850px) {
 
@@ -375,7 +342,6 @@ footer p {
 
 
 }
-/* REDES SOCIALES */
 
 .redes-sociales {
     margin-top: 30px;
@@ -414,3 +380,4 @@ footer p {
     border-top: 1px solid #444;
     padding-top: 20px;
 }
+
